@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #f4f5f7;
+  }
+
+  .header-at-top {
+    background-image: url(./image/header-bg-desktop.png);
+    background-size: cover;
+  }
+
+  .primary-text,
+  .social,
+  .social-media-icons {
+    padding-left: 260px;
+  }
+
+  .text-about {
+    padding: 0 260px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  .social-media-icons li,
+  .social-media-icons2 li {
+    display: inline;
+	word-spacing: 20px;
+  }
+}
