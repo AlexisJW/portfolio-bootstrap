@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -10,7 +9,7 @@
   <link rel="stylesheet" href="desktop-respons.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-sm">
+  <nav class="navbar navbar-expand-sm bg-white">
     <div class="container">
       <a class="navbar-brand text-primary font-weight-bolder" id="logo" href="javascript:void(0)"> Logo </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -33,22 +32,215 @@
     </div>
   </nav>
 
-  <section class="header-at-top">
+  <section class="header-at-top mt-5 pt-5 bg-white">
     <div class="row mx-auto">
       <h1 class="primary-text"> I’m Alexis! <br> Glad to see you! </h1>
 	  <p class="text-about"> I’m a software developer! I can help you build a product ,
 	  feature or website. Look through some of my work and experience! <br> If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-	  <h2 class="social"> LET'S CONNECT </h2>    
+	  <h4 class="social"> LET'S CONNECT </h4>    
 	  <div class="social-media-icons">
-	    <ul>
-		  <li><a href="https://twitter.com/" target="_blank"><img src="./image/Vector-twitter.svg" alt="twitter icon"></a></li>
-		  <li><a href="https://www.linkedin.com/in/jean-walner-alexis-b05539175/" target="_blank"><img src="./image/linkedin-icon.svg" alt="Linkedin icon"></a></li>
-		  <li><a href="https://github.com/AlexisJW" target="_blank"><img src="./image/Vector-m.svg" alt="icon"></a></li>
-		  <li><a href="https://github.com/AlexisJW" target="_blank"><img src="./image/Vector-github.svg" alt="Github icon"></a></li>
-		  <li><a href="https://web.facebook.com/profile.php?id=100001094813889" target="_blank"><img src="./image/Vector.svg" alt="Fingers icon"></a></li>
+	    <ul class="px-0">
+		  <li class="px-1"><a href="https://twitter.com/" target="_blank"><img src="./image/Vector-twitter.svg" alt="twitter icon"></a></li>
+		  <li class="px-1"><a href="https://www.linkedin.com/in/jean-walner-alexis-b05539175/" target="_blank"><img src="./image/linkedin-icon.svg" alt="Linkedin icon"></a></li>
+		  <li class="px-1"><a href="https://github.com/AlexisJW" target="_blank"><img src="./image/Vector-m.svg" alt="icon"></a></li>
+		  <li class="px-1"><a href="https://github.com/AlexisJW" target="_blank"><img src="./image/Vector-github.svg" alt="Github icon"></a></li>
+		  <li class="px-1"><a href="https://web.facebook.com/profile.php?id=100001094813889" target="_blank"><img src="./image/Vector.svg" alt="Fingers icon"></a></li>
 	    </ul>    
 	  </div>
     </div>	  
+  </section>
+
+   <section class="containers-works-section mt-5 pt-5">
+   <div class="row">
+
+	  <div class="card d-flex flex-row w-75 mx-auto rounded-5" id="first-card">
+		 <img src="./image/snapshoot.png" alt="image card" class="snapshot col-sm-6 p-3">
+		 <div class="more-details col-sm-6 p-3">
+		   <div class="work-description-align-item">
+		     <div class="works-elements">
+			   <h1 class="project-title"> Tonic </h1>
+			   <h2 class="mt-2">
+			      <div class="frame-client">
+				  <span class="client"> CANOPY </span>
+				  <img src="./image/Counter.png" alt="image card">
+				  <span class="role"> Back End Dev </span>
+				  <img src="./image/Counter.png" alt="">
+				  <span class="year"> 2015 </span>
+				  </div>
+			   </h2>
+			  </div>
+		   </div>
+		   <p class="details mt-5">
+			A daily selection of privately personalized reads; no accounts or sign-ups required.
+		   </p>
+		   <ul class="technologie-label d-flex flex-row text-primary px-1 mt-4">
+			   <li>html</li>
+			   <li class="mx-3">css</li>
+			   <li class="mx-3">javaScript</li>
+		   </ul>
+		   <button type="button" class="btn btn-outline-primary mt-5"> See Project </button>
+		 </div>
+	   </div>
+
+	   <div class="card d-flex flex-row w-75 mx-auto mt-5 pt-5 rounded-5" id="second-card">
+		 <img src="./image/snapshoot-1.png" alt="snapshot poortfolio" class="snapshot col-sm-6 p-3">
+		  <div class="more-details col-sm-6 p-3">
+			 <div class="work-description-align-item">
+			   <div class="works-elements">
+				 <h1 class="project-title"> Multi-Post Stories </h1>
+				 <h2 class="mt-2">
+				   <div class="frame-client">
+					<span class="client"> CANOPY </span>
+					<img src="./image/Counter.png" alt="image card" class="counter">
+					<span class="role"> Back End Dev </span>
+					<img src="./image/Counter.png" alt="image card" class="counter">
+					<span class="year"> 2015 </span>
+				   </div>
+				 </h2>
+			   </div>
+			 </div>
+			<p class="details mt-5"> A daily selection of privately personalized reads; no accounts or sign-ups required. </p>
+			 <ul class="d-flex flex-row text-primary px-1 mt-4">
+			   <li> html </li>
+			   <li class="mx-3"> css </li>
+			   <li class="mx-3"> javaScript </li>
+			 </ul>
+			 <button type="button" class="btn btn-outline-primary mt-5"> See Project </button>
+	      </div>
+	   </div>
+
+	   <div class="card d-flex flex-row w-75 mx-auto mt-5 pt-5 rounded-5">
+		 <img src="./image/snapshoot-2.png" alt="" class="snapshot col-sm-6 p-3">
+		 <div class="more-details col-sm-6 p-3">
+		   <div class="work-description-align-item">
+				 <div class="works-elements">
+					 <h1 class="project-title"> Tonic </h1>
+					 <h2 class="mt-2">
+					   <div class="frame-client">
+						 <span class="client"> CANOPY </span>
+						 <img src="./image/Counter.png" alt="image card" class="counter">
+						 <span class="role"> Back End Dev </span>
+						 <img src="./image/Counter.png" alt="image card" class="counter">
+						 <span class="year">2015</span>
+					   </div>
+					 </h2>
+				 </div>
+			 </div>
+			 <p class="details mt-5"> A daily selection of privately personalized reads; no accounts or sign-ups required. </p>
+			 <ul class="d-flex flex-row text-primary px-1 mt-4">
+				 <li> html </li>
+				 <li class="mx-3"> css </li>
+				 <li class="mx-3"> javaScript </li>
+			 </ul>
+			 <button type="button" class="btn btn-outline-primary mt-5"> See Project </button>
+		 </div>
+	   </div>
+
+	   <div class="card d-flex flex-row w-75 mx-auto mt-5 pt-5 rounded-5" id="fourth-card">
+		 <img src="./image/snapshoot-3.png" alt="image card" class="snapshot col-sm-6 p-3">
+		 <div class="more-details col-sm-6 p-3">
+		   <div class="work-description-align-item">
+			   <div class="works-elements">
+				   <h1 class="project-title"> Multi-Post Stories </h1>
+				   <h2 class="mt-2">
+				     <div class="frame-client">
+					   <span class="client"> CANOPY </span>
+					   <img src="./image/Counter.png" alt="image card" class="counter">
+					   <span class="role"> Back End Dev </span>
+					   <img src="./image/Counter.png" alt="image card" class="counter">
+					   <span class="year"> 2015 </span>
+				     </div>
+				   </h2>
+			   </div>
+		   </div>
+		   <p class="details mt-5"> A daily selection of privately personalized reads; no accounts or sign-ups required. </p>
+		   <ul class="d-flex flex-row text-primary px-1 mt-4">
+			   <li> html </li>
+			   <li class="mx-3"> css </li>
+			   <li class="mx-3"> javaScript</li>
+		   </ul>
+		   <button type="button" class="btn btn-outline-primary mt-5"> See Project </button>
+	   </div>
+	 </div>
+    </div>
+   </section>
+
+   <section class="mx-auto d-flex bg-white justify-content-center mt-5">
+    <div class="d-flex flex-column p-5 pr-0 justify-content-center">
+        <h2> About Myself </h2>
+        <p class="details w-75">
+            Hello I’m a software developer! I can help you build a product , feature or 
+            website. Look through some of my work and experience! If you like what you
+             see and have a project you need coded, don’t hestiate to contact me.
+        </p>
+        <div class="card-footer">
+            <span class="connect p-2"> LET'S CONNECT </span>
+            <div class="social-media-icons2">
+                <ul class="list-unstyled p-1">
+                  <li class="p-1"><a href="https://twitter.com/" target="_blank"><img src="./image/Vector-twitter.svg" alt="twitter icon"></a></li>
+                  <li class="p-1"><a href="https://www.linkedin.com/in/jean-walner-alexis-b05539175/" target="_blank"><img src="./image/linkedin-icon.svg" alt="Linkedin icon"></a></li>
+                  <li class="p-1"><a href="https://github.com/AlexisJW" target="_blank"><img src="./image/Vector-m.svg" alt="icon"></a></li>
+                  <li class="p-1"><a href="https://github.com/AlexisJW" target="_blank"><img src="./image/Vector-github.svg" alt="Github icon"></a></li>
+                  <li class="p-1"><a href="https://web.facebook.com/profile.php?id=100001094813889" target="_blank"><img src="./image/Vector.svg" alt="Fingers icon"></a></li>
+                </ul>    
+            </div>
+        </div>
+        <button type="button" class="btn btn-outline-primary mt-5 w-25"> Get My Resume </button>
+    </div>
+
+    <ul class="list-unstyled p-5">
+         <li>
+            <span class="language-title"> LANGUAGES </span>
+        
+      <ul class="list-unstyled d-flex p-4">
+        <li class="p-4 bg-light m-2 rounded"><img src="./image/JS-icon.png" alt="JS icon" class="language-icon"><span class="language-name"> JavaScript </span></li>
+        <li class="p-4 bg-light m-2 rounded"><img src="./image/html-icon.png" alt="HTML icon" class="language-icon"><span class="language-name"> HTML </span></li>
+        <li class="p-4 bg-light m-2 rounded"><img src="./image/css-icon.png" alt="CSS icon" class="language-icon"><span class="language-name"> CSS </span></li>
+      </ul>
+         </li>
+         <li>
+       <div class="frameworks d-flex flex-row justify-content-between p-1">
+      <span> Frameworks </span>
+       <button class="chevron-button">
+       <img src="./image/chevron-right.png" alt="framework-1" class="chevron">
+      </button>
+       </div>
+          </li>
+          <li>
+      <div class="skills d-flex flex-row justify-content-between p-1">
+        <span class="skills-title d-flex flex-row justify-content-between"> Skills </span>
+        <button class="chevron-button">
+        <img src="./image/chevron-right.png" alt="framework-2" class="chevron">
+        </button>
+      </div>
+      </li>
+    </ul>
+    </div>
+</section>
+
+<section class="bg-image mt-5 pt-5 d-flex justify-content-center text-center text-white bg-primary" style="background-image: url('./image/bg-contact.png'); background-size: cover;">
+	 <div class="d-flex flex-column bd-highlight col-sm-5 mt-5 pt-5">
+	     <h2> Contact me </h2>
+       <div class="p-2 bd-highlight">
+	     <p> If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it  </p>
+	   </div>
+	     <form action="https://formspree.io/f/xyyvrjdz" method="post">
+			<div class="form-group ">
+				<input type="text" name="name" placeholder="Enter your name" class="form-control mb-2" id="name" maxlength=30 required>
+			</div>
+		   <div>
+				<input type="email" name="user-email" placeholder="Enter your e-mail" class="form-control mb-2" id="user-email" required>
+		   </div>
+		   <div>
+				<textarea name="message" id="text-area" cols="30" rows="10" class="form-control mb-2" placeholder="Write your message here" maxlength=500 required></textarea>
+		   </div>
+			<div class="text-center">
+		   		<button type="button" class="btn btn-outline-primary mt-2 text-center bg-white text-primary "> Get in Touch </button>
+			</div>
+	    </form>
+	   </div>
+	 </div>
+    </div>
   </section>
 
 </body>
